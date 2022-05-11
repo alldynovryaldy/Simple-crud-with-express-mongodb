@@ -3,11 +3,11 @@ const mongoose = require('mongoose');
 const Post = mongoose.Schema({
   nama: {
     type: String,
-    required: true,
+    // required: true,
   },
   body: {
     type: String,
-    required: true,
+    // required: true,
   },
   published: {
     type: Boolean,
