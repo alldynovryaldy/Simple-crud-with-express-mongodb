@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 const router = require('./app/routes');
 
-require('./config/database');
+require('./app/config/database');
 
 app.use(cors(), express.json(), express.urlencoded({ extended: true }), router);
 
